@@ -7,7 +7,7 @@ fun main() {
      * Buat variable dengan nama hero dibawah ini dan isi nilai variable tersebut dengan class Hero
      *
      */
-
+    val yuusha = Hero()
 
 
     /**
@@ -16,7 +16,7 @@ fun main() {
      * Dan isi argumen-argumen / data dari parameter sesuai data diri Anda (Name, Age, Height)
      *
      */
-
+    yuusha.setProfile("Rakhsasha",25,172)
 
 
     /**
@@ -25,7 +25,7 @@ fun main() {
      *
      */
 
-
+    yuusha.profile()
 
     /**
     Challenge:
@@ -44,7 +44,25 @@ fun main() {
      *
      */
 
+    for (i in 1..5) {
+        yuusha.jalan()
+    }
 
+    for (i in 1..2) {
+        yuusha.lari()
+    }
+
+    for (i in 1..3) {
+        yuusha.makan()
+    }
+
+    yuusha.minum()
+
+    for (i in 1..3) {
+        yuusha.lompat()
+    }
+
+    yuusha.duduk()
 
 
     /**
@@ -53,5 +71,6 @@ fun main() {
      *
      */
 
+    yuusha.profile()
 
 }       /** MADE BY RAKHSASHA */
